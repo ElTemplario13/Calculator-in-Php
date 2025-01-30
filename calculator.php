@@ -53,7 +53,7 @@
 
             @array_key_exists($_SESSION["operador"], $operaciones) 
                 ? $_SESSION["contenido"] = $operaciones[$_SESSION["operador"]]($_SESSION["number1"], $_SESSION["contenido"]) 
-                : print "No existe el operador xd"; 
+                : print "No existe el operador"; 
 
         } elseif ($operador == "←" || $operador == "c") {
             $unicas_operaciones = [
@@ -63,7 +63,7 @@
 
             @array_key_exists($operador,$unicas_operaciones) 
             ? $_SESSION["contenido"] = $unicas_operaciones[$operador]($_SESSION["contenido"]) 
-            : print "No existe el operador xd2";
+            : print "No existe el operador";
         } else {
             $_SESSION["contenido"] .= (string) $valor;
         }
