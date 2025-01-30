@@ -221,36 +221,6 @@
             }
 
         }
-
-        .X_account {
-            width: 150px;
-            height: 50px;
-            background-color: white;
-            border: 1px solid black;
-            border-radius: 5px;
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            scale: 1;
-            text-decoration: none;
-            font-size: 15px;
-            color: black;
-            transition: scale ease .5s;
-
-            &:hover {
-                scale: 1.1;
-            }
-
-            &:active {
-                scale: .9;
-            }
-            
-            & > a {
-                color: black;
-                text-decoration: none;
-                font-size: 15px;
-            }
-        }
     </style>
     <h1>Calculator in PHP</h1>
     <section class="cuerpo">
@@ -285,10 +255,6 @@
                 <a class="github_repository">
                     Repository
                     <img src="./assets/github.png" alt="Icono de gihub" width="30px">
-                </a>
-                <a class="X_account" href="http://www.google.com" target="_blank" rel="noopener noreferrer">
-                    X account
-                    <img src="./assets/x.png" alt="Icono de X" width="30px">
                 </a>
             </div>
         </div>
